@@ -26,4 +26,4 @@ jobs:
         autopep8 ./ --recursive --in-place -a
     - name: Test with unittest
       run: |
-        python -m unittest discover
+        - python -m unittest discover tests
