@@ -15,7 +15,8 @@ class TestFirstTenTasks(unittest.TestCase):
         first_string = '132'
         second_string = '144'
         third_string = '126'
-        first_result, second_result, third_result = ftt.second_task(first_string, second_string, third_string)
+        first_result, second_result, third_result = ftt.second_task(
+            first_string, second_string, third_string)
         expected_first_result = '144'
         expected_second_result = '132'
         expected_third_result = '126'
@@ -58,6 +59,9 @@ class TestFirstTenTasks(unittest.TestCase):
         result = ftt.fifth_task(n, weight, height)
         expected_result = 2
         self.assertEqual(expected_result, result)
+
+    def test_fifth_task(self):
+        pass
 
     def test_sixth_task(self):
         # Первый тестовый случай
